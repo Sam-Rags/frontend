@@ -51,15 +51,52 @@ body {
 }
 
 .footer {
-    display: flex;
+    /* display: flex; */
     padding: 20px;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #234234;
+
 }
 
 .copyright {
     color: #ffffe6;
 }
+
+.movie-card {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.movie-card > * {
+    padding: 0 10px;
+    margin: 2px;
+    font-size: 22px;
+    
+}
+
+#form {
+    width: 50vh;
+}
+
+h1 {
+    padding: 5px 10vh;
+}
+#form > div {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 5px 10vh;
+}
+
+#year {
+    width: 6vh;
+}
+
+#rating {
+    width: 7vh;
+}
+
