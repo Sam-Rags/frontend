@@ -52,7 +52,7 @@ addEventListener("DOMContentLoaded", async function() {
         })
         if (response.ok) {
             alert("Movie deleted successfully!")
-            window.location.replace("browse.html")
+            window.location.replace("index.html")
         }
         else {
             document.querySelector("#error").innerHTML = "Failed to delete movie."
